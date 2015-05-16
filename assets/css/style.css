@@ -81,7 +81,7 @@ content {
   padding: 60px 0;
 }
 .bubble {
-  color: #26a9e0;
+  color: #333;
 }
 @media (max-width: 768px) {
   .bubble {
