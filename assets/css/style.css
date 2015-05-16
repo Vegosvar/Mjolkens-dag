@@ -83,6 +83,11 @@ content {
 .bubble {
   color: #26a9e0;
 }
+@media (max-width: 768px) {
+  .bubble {
+    margin-bottom: 30px;
+  }
+}
 .bubble a {
   color: inherit;
 }
@@ -133,6 +138,9 @@ content {
 }
 .ending {
   background: #00a651;
+}
+.ending h2 {
+  margin-top: 0;
 }
 .ending hr {
   margin-top: 30px;
