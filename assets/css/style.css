@@ -113,10 +113,15 @@ content {
   margin-bottom: 60px;
 }
 .jumbotron h2 {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: normal;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-family: 'Cabin Sketch', cursive;
+}
+@media (max-width: 768px) {
+  .jumbotron h2 {
+    font-size: 50px;
+  }
 }
 .thumbnails {
   margin-top: 60px;
@@ -135,6 +140,11 @@ content {
   background: none;
 }
 .thumbnails .desc .caption {
+  color: #fff;
+}
+.thumbnails .btn {
+  background: #00a651;
+  border: none;
   color: #fff;
 }
 .ending {
